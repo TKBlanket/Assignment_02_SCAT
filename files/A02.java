@@ -7,6 +7,7 @@ import java.net.URL;
 import java.sql.*;
 import java.util.Scanner;
 
+// another file to test out the new scanner
 public class VulnerableApp {
 
     private static final String DB_URL = "jdbc:mysql://mydatabase.com/mydb";

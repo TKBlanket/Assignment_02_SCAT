@@ -10,6 +10,7 @@ const dbConfig = {
     database: 'mydb'
 };
 
+// Last scan for the new scanner
 function getUserInput(): Promise<string> {
     const rl = readline.createInterface({
         input: process.stdin,
